@@ -20,7 +20,7 @@ class Database extends AbstractDriver
      * @param array           $config
      * @param DatabaseManager $database
      */
-    public function __construct(array $config, DatabaseManager $database)
+    public function __construct(array $config = [], DatabaseManager $database)
     {
         parent::__construct($config);
 
